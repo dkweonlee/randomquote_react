@@ -54,5 +54,13 @@ const RANDOM_QOUTE = [
 ]
 
 class Quote {
-  
+  constructor(quote, author) {
+    this.quote = quote
+    this.author = author
+  }
+
+  render(){
+    
+  }
+
 }
